@@ -11,3 +11,26 @@ section{
     background-size: cover;
     color: white;
 }
+section h1{
+    
+    font-size: 90px;
+    font-weight: 700;
+}
+section .btn-group{
+    display: flex;
+    gap: 80px;
+    margin-top: 25px;
+}
+section .btn-group a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 18px;
+    padding: 10px 35px;
+    border: 1px solid aquamarine;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+section .btn-group a:hover{
+    background-color: aquamarine;
+    color: black;
+}
